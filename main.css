@@ -1,0 +1,78 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;  
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-image: url('white-bkground.png'); /* Path to your PNG file */
+    /* background: #fff; */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h1,
+h2 {
+    color: #000;
+}
+.header {
+    text-align: center;
+    background-image: url('banner.png'); /* Path to your PNG file */
+        background-size: cover; /* Cover the entire header */
+        background-position: center; /* Center the image */
+        padding: 10px; /* Add some padding */     
+        background-color: rgba(255, 255, 255, 3.5); /* White with 50% opacity */ 
+}
+.header h1 {
+    margin: 10px 0;
+}
+.contact {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 800;
+    color: #fff;
+}
+.contact a {
+    color: #0a36fa;
+    font-weight: 800;
+    text-decoration: none;
+}
+.section {
+    margin: 20px 0;
+}
+.section h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ff00dd;
+    padding-bottom: 5px;
+}
+.item {
+    margin-bottom: 15px;
+}
+.item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #555;
+}
+.item p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.skills ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+.skills ul li {
+    display: inline-block;
+    background: #ff00ea;
+    color: #fff;
+    padding: 5px 10px;
+    margin: 5px 5px 5px 0;
+    border-radius: 4px;
+}
