@@ -12,7 +12,7 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-image: url('white-bkground.png'); /* Path to your PNG file */
+    background-image: url('white-bkground.png'); 
     /* background: #fff; */
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -23,11 +23,11 @@ h2 {
 }
 .header {
     text-align: center;
-    background-image: url('banner.png'); /* Path to your PNG file */
-        background-size: cover; /* Cover the entire header */
-        background-position: center; /* Center the image */
-        padding: 10px; /* Add some padding */     
-        background-color: rgba(255, 255, 255, 3.5); /* White with 50% opacity */ 
+    background-image: url('bannerUpdated.png'); 
+        background-size: cover; 
+        background-position: center; 
+        padding: 10px;    
+        background-color: rgba(255, 255, 255, 3.5);
 }
 .header h1 {
     margin: 10px 0;
